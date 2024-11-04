@@ -1,0 +1,186 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FFFFFF;
+    background-color: #1c1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+/* Estilos para Cabeçalho e Navegação */
+header {
+    width: 100%;
+    padding: 1em;
+    background-color: #1E1E2F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+header img {
+    width: 60px;
+    margin-left: 2em;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+}
+
+nav a {
+    color: #A1A1B6;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    color: #00D1FF;
+}
+
+.ancora {
+    margin-top: 1.5em;
+
+}
+
+/* Estilos para o Main */
+main {
+    max-width: 900px;
+    padding: 2em;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+/* Container do Vídeo */
+#video h2 {
+    margin-top: 100px;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+   
+}
+
+#areas h2 {
+    margin-top:300px;
+}
+
+.project {
+    background-color: #23233D;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 8px;
+}
+.project h3 {
+    margin-bottom: 1em;
+}
+.project img {
+    width: 700px;
+    height: 350px;
+}
+/* Footer */
+#contato h2 {
+    margin-top: 300px;
+
+}
+#contato a {
+    text-decoration: none;
+    color: #FFF;
+    margin-top: .8em;
+}
+
+#contato p {
+    margin-top:.5em;
+}
+footer {
+    width: 100%;
+    padding: 1em;
+    background-color: #1E1E2F;
+    text-align: center;
+    color: #A1A1B6;
+}
+
+/* Media Queries para telas a partir de 420px */
+@media (max-width: 420px) {
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    }
+    
+    main {
+        width: 100%;
+        margin-left: 2.5em;
+        max-width: 900px;
+        margin: 0 auto;
+
+    }
+
+    header img {
+        width: 50px;
+        margin-left: 2em;
+    }
+
+    nav ul {
+        gap: 1.5em;
+        margin-left: 2em;
+    }
+
+    .video-container {
+        max-width: 700px;
+    }
+
+    .project img {
+        max-width: 350px;
+    }
+}
+
+/* Media Queries para telas a partir de 680px */
+@media (max-width: 600px) {
+    main {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    header img {
+        width: 60px;
+        margin-left: 1.5em;
+    }
+
+    nav ul {
+        gap: 2em;
+    }
+
+    .video-container {
+        max-width: 800px;
+    }
+
+    .project img {
+        max-width: 450px;
+    }
+}
