@@ -83,6 +83,14 @@ section {
     border-radius: 8px;
    
 }
+#sobre h2{
+    margin-bottom: 1em;
+}
+#sobre p {
+align-items: center;
+
+}
+
 
 #areas h2 {
     margin-top:300px;
@@ -124,7 +132,7 @@ footer {
 }
 
 /* Media Queries para telas a partir de 420px */
-@media (min-width: 380px) {
+@media (min-width: 360px max-width: 599px) {
     * {
     margin: 0;
     padding: 0;
@@ -134,14 +142,12 @@ footer {
     
     main {
         width: 100%;
-        margin-left: 1em;
-        max-width: 900px;
         margin: 0 auto;
 
     }
 
     header img {
-        width: 40px;
+        width: 35px;
         
     }
 
