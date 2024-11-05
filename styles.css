@@ -124,7 +124,7 @@ footer {
 }
 
 /* Media Queries para telas a partir de 420px */
-@media (max-width: 420px) {
+@media (min-width: 380px) {
     * {
     margin: 0;
     padding: 0;
@@ -134,15 +134,15 @@ footer {
     
     main {
         width: 100%;
-        margin-left: 2.5em;
+        margin-left: 1em;
         max-width: 900px;
         margin: 0 auto;
 
     }
 
     header img {
-        width: 50px;
-        margin-left: 2em;
+        width: 40px;
+        
     }
 
     nav ul {
@@ -155,7 +155,7 @@ footer {
     }
 
     .project img {
-        max-width: 350px;
+        width: 300px;
     }
 }
 
