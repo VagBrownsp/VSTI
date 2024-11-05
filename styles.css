@@ -176,14 +176,14 @@ footer {
         margin: 0 auto;
 
     }
-    
+
     header {
         position: fixed;
     }
 
     header img {
         width: 60px;
-        margin-left: 1.5em;
+        margin-left: .5em;
     }
 
     nav ul {
