@@ -131,7 +131,7 @@ footer {
     color: #A1A1B6;
 }
 
-/* Media Queries para telas a partir de 420px */
+/* Media Queries para telas a partir de 480px */
 @media (max-width: 480px) {
     * {
     margin: 0;
@@ -164,12 +164,12 @@ footer {
     }
 
     .project img {
-        width: 300px;
+        width: 18.75em;
     }
 }
 
-/* Media Queries para telas a partir de 680px */
-@media (max-width: 680px  ) {
+/* Media Queries para telas a partir de 800px */
+@media (max-width: 800px  ) {
     main {
         width: 100%;
         max-width: 900px;
