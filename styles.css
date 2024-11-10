@@ -112,6 +112,7 @@ align-items: center;
 /* Footer */
 #contato h2 {
     margin-top: 300px;
+    margin-bottom: 1em;
 
 }
 #contato a {
@@ -121,8 +122,10 @@ align-items: center;
 }
 
 #contato p {
-    margin-top:.5em;
+    margin-top: .8em;
+    margin-bottom: .3em;
 }
+
 footer {
     width: 100%;
     padding: 1em;
@@ -130,6 +133,7 @@ footer {
     text-align: center;
     color: #A1A1B6;
 }
+
 
 /* Media Queries para telas a partir de 480px */
 @media (max-width: 480px) {
