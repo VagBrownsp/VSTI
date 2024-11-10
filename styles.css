@@ -139,7 +139,10 @@ footer {
     box-sizing: border-box;
 
     }
-    
+
+    header {
+        position: fixed;
+    }
     main {
         width: 100%;
         margin: 0 auto;
@@ -150,7 +153,7 @@ footer {
     }
 
     header img {
-        width: 35px;
+        max-width: 4em;
         
     }
 
@@ -164,7 +167,7 @@ footer {
     }
 
     .project img {
-        width: 18.75em;
+        width: 100%;
     }
 }
 
@@ -195,6 +198,6 @@ footer {
     }
 
     .project img {
-        max-width: 450px;
+        width: 100%;
     }
 }
